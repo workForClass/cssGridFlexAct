@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Car Listings</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <!-- nav starts here  -->
+      <nav>
+        <span>VC</span>
+        <a href="">Cars</a>
+        <a href="">Enquires</a>
+        <a href="">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <!-- heading section starts here -->
+      <!-- page title -->
+      <h1 class="heading">Vintage Cars For Hire</h1>
+      <!-- heading section ends here -->
+
+      <!-- car listings section starts here -->
+      <section id="carlistings">
+        <!-- car listings header-->
+        <h2>Car Listings</h2>
+        <!-- car listings cards -->
+        <section class="carListingContainer">
+          <!-- car list cards -->
+          <div class="carcards" id="car1">
+            <img src="images/car1.jpg" />
+            <p>Blue Car</p>
+          </div>
+          <div class="carcards" id="car2">
+            <img src="images/car2.jpg" />
+            <p>Yellow Car</p>
+          </div>
+          <div class="carcards" id="car3">
+            <img src="images/car3.jpg" />
+            <p>Red Car</p>
+          </div>
+          <div class="carcards" id="car4">
+            <img src="images/car4.jpg" />
+            <p>Bright Blue Car</p>
+          </div>
+        </section>
+      </section>
+      <!-- car listings section ends here-->
+
+      <!-- form section starts here -->
+      <section class="formsection">
+        <!-- form header-->
+        <h2>Enquiries about a car</h2>
+        <!-- form itself -->
+        <form>
+          <label for="fname">First name:</label>
+          <input type="text" id="fname" name="fname" placeholder="John" />
+          <label for="email">Email Address:</label>
+          <input type="email" id="email" name="email" placefolder="Doe@hotmail.com" />
+          <label for="cars">Select a Car:</label>
+          <select id="cars" name="cars">
+            <option value="bluecar">Blue Car</option>
+            <option value="yellowcar">Yellow Car</option>
+            <option value="redcar">Red Car</option>
+            <option value="brightbluecar">Bright Blue Car</option>
+          </select>
+          <label for="description">Comments:</label>
+          <textarea id="description" name="description" rows="4" cols="50">
+            
+          </textarea>
+          <input type="submit" value="Submit" />
+        </form>
+      </section>
+      <!-- form section ends here-->
+
+      <!-- contact section starts here -->
+      <section class="contact">
+        <!-- contact header -->
+        <h2>Contact Us</h2>
+        <!-- contact text -->
+        <p>
+          Address: xxxxx Candy Street, NSW 2000 <br />
+          Phone: xxx xxx xxx <br />
+          Email: fake.email@hotmail.com
+        </p>
+        <!-- contact map-->
+      </section>
+      <!-- contact section ends here-->
+    </main>
+    <footer>
+      <!-- back to top link -->
+      <a href="#">Back to Top</a>
+      <!-- copy right text-->
+      Copy Right Lisa.
+    </footer>
+  </body>
+</html>
